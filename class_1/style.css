@@ -1,0 +1,32 @@
+.invert-color {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.vertical-line {
+  border-left: thick solid #4d48483c;
+  height: 50%;
+  left: 50%;
+}
+
+.carousel-item {
+  width: auto;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-item .crop {
+  position: absolute;
+  top: -70%;
+  bottom: -50%;
+  margin: auto;
+  min-height: 200%;
+  min-width: 100%;
+}
+
+.text-over-img {
+  z-index: 1;
+  font-size: 1.2em;
+  margin-top: -100px;
+}
